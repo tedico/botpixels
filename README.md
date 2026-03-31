@@ -1,4 +1,6 @@
-# Clawdary
+# ClawdIcons
+
+![Clawd](icons/clawd.svg)
 
 A pixel-art icon set featuring the Claude Code mascot in various actions, states, and life scenarios.
 
