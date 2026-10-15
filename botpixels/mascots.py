@@ -15,7 +15,7 @@ class Mascot:
 
 # Poses whose prop sits at Clawd's right hand (x=100). Narrower bodies shift the overlay left.
 HAND_POSES = ("coffee", "cook", "drink", "eat", "explore", "glob", "grep",
-              "notebook", "photo", "travel", "websearch", "write")
+              "notebook", "photo", "travel", "wave", "websearch", "write")
 
 
 def _hand(dx: int) -> dict[str, tuple[int, int]]:
