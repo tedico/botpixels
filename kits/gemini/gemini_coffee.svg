@@ -3,6 +3,7 @@
   <g transform="translate(4,24) scale(4)">
     <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
   </g>
+  <g transform="translate(-24,0)">
   <!-- cup near right hand -->
   <g fill="#8B6C5C">
     <rect x="100" y="60" width="24" height="24"/>
@@ -22,5 +23,6 @@
     <rect x="116" y="52" width="4" height="4"/>
     <rect x="112" y="48" width="4" height="4"/>
     <rect x="116" y="44" width="4" height="4"/>
+  </g>
   </g>
 </svg>

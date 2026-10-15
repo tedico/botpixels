@@ -13,6 +13,15 @@ class Mascot:
     nudges: dict[str, tuple[int, int]] = field(default_factory=dict)
 
 
+# Poses whose prop sits at Clawd's right hand (x=100). Narrower bodies shift the overlay left.
+HAND_POSES = ("coffee", "cook", "drink", "eat", "explore", "glob", "grep",
+              "notebook", "photo", "travel", "websearch", "write")
+
+
+def _hand(dx: int) -> dict[str, tuple[int, int]]:
+    return {pose: (dx, 0) for pose in HAND_POSES}
+
+
 MASCOTS: tuple[Mascot, ...] = (
     Mascot("grokbot", "Grok Bot", (
         "........########........",
@@ -30,7 +39,7 @@ MASCOTS: tuple[Mascot, ...] = (
         ".....##############.....",
         "......############......",
         "........########........",
-    ), "#E6ECF5", "#0F1115"),
+    ), "#E6ECF5", "#0F1115", _hand(-12)),
     Mascot("gemini", "Gemini", (
         "...........##...........",
         "...........##...........",
@@ -48,7 +57,7 @@ MASCOTS: tuple[Mascot, ...] = (
         "..........####..........",
         "...........##...........",
         "...........##...........",
-    ), "#969DFF", None),
+    ), "#969DFF", None, _hand(-24)),
     Mascot("antigravity", "Antigravity", (
         ".........######.........",
         ".......##########.......",
@@ -66,7 +75,7 @@ MASCOTS: tuple[Mascot, ...] = (
         ".####..............####.",
         "####................####",
         "###..................###",
-    ), "#3186FF", None),
+    ), "#3186FF", None, _hand(-12)),
     Mascot("elevenlabs", "ElevenLabs", (
         "......####....####......",
         ".....######..######.....",
@@ -84,5 +93,5 @@ MASCOTS: tuple[Mascot, ...] = (
         ".....######..######.....",
         ".....######..######.....",
         ".....######..######.....",
-    ), "#111111", "#FFFFFF"),
+    ), "#111111", "#FFFFFF", _hand(-20)),
 )

@@ -4,6 +4,7 @@
     <path d="M6 4h4v1h-4zM14 4h4v1h-4zM5 5h6v1h-6zM13 5h6v1h-6zM5 6h6v1h-6zM13 6h6v1h-6zM5 7h2v1h-2zM8 7h3v1h-3zM13 7h3v1h-3zM17 7h2v1h-2zM5 8h2v1h-2zM8 8h3v1h-3zM13 8h3v1h-3zM17 8h2v1h-2zM5 9h6v1h-6zM13 9h6v1h-6zM5 10h6v1h-6zM13 10h6v1h-6zM5 11h6v1h-6zM13 11h6v1h-6zM5 12h6v1h-6zM13 12h6v1h-6zM5 13h6v1h-6zM13 13h6v1h-6zM5 14h6v1h-6zM13 14h6v1h-6zM5 15h6v1h-6zM13 15h6v1h-6zM5 16h6v1h-6zM13 16h6v1h-6zM5 17h6v1h-6zM13 17h6v1h-6zM5 18h6v1h-6zM13 18h6v1h-6zM5 19h6v1h-6zM13 19h6v1h-6z" fill="#111111"/>
     <path d="M7 7h1v1h-1zM16 7h1v1h-1zM7 8h1v1h-1zM16 8h1v1h-1z" fill="#FFFFFF"/>
   </g>
+  <g transform="translate(-20,0)">
   <!-- flashlight in right hand -->
   <rect x="100" y="66" width="16" height="8" rx="2" fill="#5B9BD5"/>
   <rect x="100" y="64" width="6" height="12" rx="1" fill="#5B9BD5" opacity="0.8"/>
@@ -12,4 +13,5 @@
   <polygon points="116,66 126,58 126,82 116,74" fill="#F0C75E" opacity="0.35"/>
   <!-- light glow at source -->
   <rect x="114" y="66" width="4" height="8" rx="1" fill="#F0C75E" opacity="0.8"/>
+  </g>
 </svg>
