@@ -12,7 +12,7 @@
 
 ## Global Constraints
 
-- Repo root: `/Users/teds/Projekts/botpixels`. Every path below is relative to it.
+- Every path below is relative to the repo root.
 - Standard library only. No pip installs. Python 3.10 or newer (uses `str | None` and `str.removeprefix`).
 - Clawd output (`icons/`, 65 poses + `clawd.svg` + `preview.html`) must stay byte-identical to upstream commit cb073fb.
 - Grids are 24 columns, 1 to 16 rows, characters `#`, `o`, `.` only, at least one `#`.
@@ -606,7 +606,7 @@ if __name__ == '__main__':
 
 - [ ] **Step 5: Run the full suite.** `python3 -m unittest -v`. Expected: all tests in all three files OK.
 
-- [ ] **Step 6: Generate for real** (Claude): `cd /tmp && python3 /Users/teds/Projekts/botpixels/generate_icons.py` (from outside the repo, to prove ROOT works), then `git status`. Expected: no change under `icons/`; new `kits/` with four folders of 67 files.
+- [ ] **Step 6: Generate for real** (Claude): `cd /tmp && python3 <repo>/generate_icons.py` (from outside the repo, to prove ROOT works), then `git status`. Expected: no change under `icons/`; new `kits/` with four folders of 67 files.
 
 - [ ] **Step 7: Commit** (Claude): `feat: generate four character kits; Clawd pinned byte-identical to upstream`. Commit `kits/` too, since the build kit vendors from it.
 

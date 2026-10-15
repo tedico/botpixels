@@ -40,7 +40,7 @@ held tools and badges in the places the overlays already expect.
 | antigravity | Antigravity | #3186FF | Holes, like Clawd | 16 |
 | elevenlabs | ElevenLabs | #111111 | Filled pixels, #FFFFFF | 16 |
 
-Colours come from the kits Ted supplied in ~/Desktop/LLMAssets. Gemini takes the midpoint of its own
+Colours come from each company's published logo files. Gemini takes the midpoint of its own
 blue-to-lavender gradient because both Google kits share one palette and would otherwise be twins.
 The ghost is off-white because pure white vanishes on light frames.
 

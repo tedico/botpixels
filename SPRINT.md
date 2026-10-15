@@ -7,14 +7,14 @@
 - [ ] Phase 4 — Use: vendor the kits into the Rue Athena /commands build kit (separate change)
 
 ## Current phase
-Phase 4 — Use: kits being vendored into the Rue Athena build kit
+Phase 4 — Released: v1.0.0 public as a standalone lead magnet; Rue Athena series keep their own characters
 
 ## Next
-After merge: vendor kits/ into the Rue Athena /commands build kit and give its staging step a mascot parameter.
+Promote the v1.0.0 release; decide on the two Gmail-stamped merge commits.
 
 ## Human
-
-- Merge the feat/wave-hand PR
+- Turn on GitHub email privacy: Settings, Emails, tick "Keep my email addresses private" and "Block command line pushes that expose my email". Browser merges of PR #1 and #2 stamped your Gmail on two public commits.
+- Decide on those two commits: leave them, or let Claude republish botpixels as a fresh non-fork repo with clean history (also makes it show up in GitHub search).
 
 ## Blockers
 none
