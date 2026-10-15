@@ -9,11 +9,11 @@
 Phase 1 — Spec
 
 ## Next
-Ted resolves the one open marker (limbs in dance, run, success, wave) and reviews
+Ted reviews
 docs/superpowers/specs/2026-10-15-botpixels-design.md; then the implementation plan.
 
 ## Human
-- Answer the limbs question in the spec
+
 - Review and approve the spec file
 
 ## Blockers

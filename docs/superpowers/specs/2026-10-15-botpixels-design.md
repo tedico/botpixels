@@ -21,6 +21,7 @@ Clawd's output is unchanged from upstream; Ted signs off one contact sheet per c
 | Roster | Grok Bot ghost, Gemini sparkle, Antigravity arch, ElevenLabs bars | Ted, 2026-10-15 |
 | Approach | Fork wangzhaode/clawdicons and make the body a parameter | Ted, 2026-10-14 |
 | Repo | Public, tedico/botpixels, MIT, upstream attribution kept | Ted, 2026-10-15 |
+| Limbs | Non-Clawd mascots drop the orange limbs in dance, run, success and wave | Ted, 2026-10-15 |
 
 Brand rationale: xAI and Google both forbid altering their marks. Characters drawn in our own pixel style
 that evoke the brand are not the marks, so the kit can stay public. Official SVGs remain usable only
@@ -150,10 +151,8 @@ One script, `generate_icons.py`, refactored in place.
 
 Four poses add arms or legs in Clawd orange: dance, run, success and wave.
 
-[NEEDS CLARIFICATION] What the other characters do in those four poses. Options: (a) recolour the limbs
-to the mascot's body colour; (b) drop the limbs for non-Clawd mascots and keep only props and motion
-lines; (c) per-mascot hand-drawn limb overlays. Recommendation: (b), since a sparkle or ghost with crab
-legs reads as wrong and (c) is art work that can wait for a real need.
+Ruling (Ted, 2026-10-15): non-Clawd mascots drop the limb elements in those four poses and keep
+the props and motion lines. The generator tags each limb element in the overlay so it can be omitted.
 
 The run pose also tilts and shrinks the body. Non-Clawd mascots get the same transform.
 
