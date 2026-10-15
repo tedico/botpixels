@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>HTTP Request</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- request arrow going right -->
+  <line x1="82" y1="14" x2="114" y2="14" stroke="#5B9BD5" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="106,8 114,14 106,20" fill="none" stroke="#5B9BD5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- response arrow coming back -->
+  <line x1="114" y1="30" x2="82" y2="30" stroke="#6BBF6B" stroke-width="3" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <polyline points="90,24 82,30 90,36" fill="none" stroke="#6BBF6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- status badge -->
+  <rect x="96" y="36" width="26" height="10" rx="2" fill="#6BBF6B"/>
+  <text x="109" y="44" text-anchor="middle" font-family="monospace" font-size="8" fill="#FFFFFF" font-weight="bold">200</text>
+</svg>

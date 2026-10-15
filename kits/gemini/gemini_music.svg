@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Listening to Music</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- headband over head top -->
+  <path d="M18,56 Q18,36 52,36 Q86,36 86,56" fill="none" stroke="#5B9BD5" stroke-width="4"/>
+  <!-- ear cups on head sides -->
+  <rect x="10" y="52" width="14" height="18" rx="4" fill="#5B9BD5"/>
+  <rect x="80" y="52" width="14" height="18" rx="4" fill="#5B9BD5"/>
+  <!-- music notes -->
+  <text x="96" y="16" font-family="serif" font-size="18" fill="#6BBF6B">&#9835;</text>
+  <text x="108" y="8" font-family="serif" font-size="14" fill="#6BBF6B">&#9834;</text>
+</svg>

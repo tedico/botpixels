@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>With Pet</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M8 5h8v1h-8zM6 6h12v1h-12zM5 7h9v1h-9zM15 7h4v1h-4zM4 8h5v1h-5zM10 8h6v1h-6zM17 8h3v1h-3zM4 9h6v1h-6zM11 9h9v1h-9zM3 10h8v1h-8zM12 10h9v1h-9zM3 11h18v1h-18zM3 12h18v1h-18zM3 13h18v1h-18zM3 14h18v1h-18zM4 15h16v1h-16zM4 16h16v1h-16zM5 17h14v1h-14zM6 18h12v1h-12zM8 19h8v1h-8z" fill="#E6ECF5"/>
+    <path d="M14 7h1v1h-1zM9 8h1v1h-1zM16 8h1v1h-1zM10 9h1v1h-1zM11 10h1v1h-1z" fill="#0F1115"/>
+  </g>
+  <!-- small pixel cat next to left side -->
+  <g fill="#888">
+    <!-- cat body -->
+    <rect x="0" y="88" width="14" height="10"/>
+    <!-- cat head -->
+    <rect x="-2" y="82" width="10" height="8"/>
+    <!-- ears -->
+    <rect x="-2" y="78" width="4" height="4"/>
+    <rect x="4" y="78" width="4" height="4"/>
+    <!-- tail -->
+    <rect x="12" y="82" width="4" height="4"/>
+    <rect x="16" y="78" width="4" height="4"/>
+    <!-- eye -->
+    <rect x="1" y="84" width="2" height="2" fill="#6BBF6B"/>
+  </g>
+</svg>

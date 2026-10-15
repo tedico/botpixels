@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Spawn Agent</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M6 4h4v1h-4zM14 4h4v1h-4zM5 5h6v1h-6zM13 5h6v1h-6zM5 6h6v1h-6zM13 6h6v1h-6zM5 7h2v1h-2zM8 7h3v1h-3zM13 7h3v1h-3zM17 7h2v1h-2zM5 8h2v1h-2zM8 8h3v1h-3zM13 8h3v1h-3zM17 8h2v1h-2zM5 9h6v1h-6zM13 9h6v1h-6zM5 10h6v1h-6zM13 10h6v1h-6zM5 11h6v1h-6zM13 11h6v1h-6zM5 12h6v1h-6zM13 12h6v1h-6zM5 13h6v1h-6zM13 13h6v1h-6zM5 14h6v1h-6zM13 14h6v1h-6zM5 15h6v1h-6zM13 15h6v1h-6zM5 16h6v1h-6zM13 16h6v1h-6zM5 17h6v1h-6zM13 17h6v1h-6zM5 18h6v1h-6zM13 18h6v1h-6zM5 19h6v1h-6zM13 19h6v1h-6z" fill="#111111"/>
+    <path d="M7 7h1v1h-1zM16 7h1v1h-1zM7 8h1v1h-1zM16 8h1v1h-1z" fill="#FFFFFF"/>
+  </g>
+  <!-- mini mascot (child agent) bouncing out to the right -->
+  <g transform="translate(84,6) scale(1.6)">
+    <path d="M6 4h4v1h-4zM14 4h4v1h-4zM5 5h6v1h-6zM13 5h6v1h-6zM5 6h6v1h-6zM13 6h6v1h-6zM5 7h2v1h-2zM8 7h3v1h-3zM13 7h3v1h-3zM17 7h2v1h-2zM5 8h2v1h-2zM8 8h3v1h-3zM13 8h3v1h-3zM17 8h2v1h-2zM5 9h6v1h-6zM13 9h6v1h-6zM5 10h6v1h-6zM13 10h6v1h-6zM5 11h6v1h-6zM13 11h6v1h-6zM5 12h6v1h-6zM13 12h6v1h-6zM5 13h6v1h-6zM13 13h6v1h-6zM5 14h6v1h-6zM13 14h6v1h-6zM5 15h6v1h-6zM13 15h6v1h-6zM5 16h6v1h-6zM13 16h6v1h-6zM5 17h6v1h-6zM13 17h6v1h-6zM5 18h6v1h-6zM13 18h6v1h-6zM5 19h6v1h-6zM13 19h6v1h-6z" fill="#5B9BD5"/>
+    <path d="M7 7h1v1h-1zM16 7h1v1h-1zM7 8h1v1h-1zM16 8h1v1h-1z" fill="#FFFFFF"/>
+  </g>
+  <!-- connection line from parent to child -->
+  <path d="M100,72 Q108,56 92,44" fill="none" stroke="#F0C75E" stroke-width="2" stroke-dasharray="4,3" opacity="0.7"/>
+  <!-- energy sparkles around mini mascot -->
+  <g fill="#F0C75E">
+    <rect x="82" y="4" width="3" height="3" rx="1"/>
+    <rect x="122" y="8" width="4" height="4" rx="1"/>
+    <rect x="118" y="38" width="3" height="3" rx="1"/>
+    <rect x="80" y="32" width="3" height="3" rx="1"/>
+  </g>
+  <!-- spawn burst lines -->
+  <g stroke="#F0C75E" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <line x1="78" y1="20" x2="74" y2="16"/>
+    <line x1="126" y1="18" x2="128" y2="14"/>
+    <line x1="124" y1="36" x2="128" y2="38"/>
+  </g>
+</svg>

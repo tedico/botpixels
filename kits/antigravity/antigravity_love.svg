@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Love</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M9 4h6v1h-6zM7 5h10v1h-10zM6 6h12v1h-12zM5 7h4v1h-4zM10 7h4v1h-4zM15 7h4v1h-4zM5 8h4v1h-4zM10 8h4v1h-4zM15 8h4v1h-4zM4 9h16v1h-16zM4 10h16v1h-16zM4 11h6v1h-6zM14 11h6v1h-6zM3 12h5v1h-5zM16 12h5v1h-5zM3 13h4v1h-4zM17 13h4v1h-4zM2 14h4v1h-4zM18 14h4v1h-4zM2 15h4v1h-4zM18 15h4v1h-4zM1 16h4v1h-4zM19 16h4v1h-4zM1 17h4v1h-4zM19 17h4v1h-4zM0 18h4v1h-4zM20 18h4v1h-4zM0 19h3v1h-3zM21 19h3v1h-3z" fill="#3186FF"/>
+  </g>
+  <g fill="#E05252">
+    <!-- big heart -->
+    <path d="M52,20 C52,12 40,8 40,18 C40,26 52,34 52,34 C52,34 64,26 64,18 C64,8 52,12 52,20 Z"/>
+    <!-- small hearts -->
+    <path d="M92,8 C92,4 86,2 86,6 C86,10 92,14 92,14 C92,14 98,10 98,6 C98,2 92,4 92,8 Z" opacity="0.6"/>
+    <path d="M108,18 C108,15 104,14 104,16 C104,19 108,22 108,22 C108,22 112,19 112,16 C112,14 108,15 108,18 Z" opacity="0.4"/>
+  </g>
+</svg>

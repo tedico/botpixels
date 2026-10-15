@@ -2,6 +2,13 @@
 """Generate Clawd icon set based on Claude Code mascot."""
 
 import os
+import sys
+
+from botpixels.derive import base_svg, derive_pose, mascot_paths
+from botpixels.grid import GridError, validate_grid
+from botpixels.mascots import MASCOTS
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
 
 BASE_PATH = 'M20.998 10.949H24v3.102h-3v3.028h-1.487V20H18v-2.921h-1.487V20H15v-2.921H9V20H7.488v-2.921H6V20H4.487v-2.921H3V14.05H0V10.95h3V5h17.998v5.949zM6 10.949h1.488V8.102H6v2.847zm10.51 0H18V8.102h-1.49v2.847z'
 
@@ -852,15 +859,6 @@ icons['clawd_env'] = svg('Environment', f'''  <!-- .env file -->
   <rect x="88" y="38" width="8" height="2" fill="{YELLOW}" opacity="0.7"/>
   <rect x="98" y="38" width="12" height="2" fill="{WHITE}" opacity="0.4"/>''')
 
-# Output directory
-OUT = 'icons'
-
-for name, content in icons.items():
-    path = os.path.join(OUT, f'{name}.svg')
-    with open(path, 'w') as f:
-        f.write(content)
-    print(f'Created {path}')
-
 # Generate preview HTML
 preview = '''<!DOCTYPE html>
 <html>
@@ -1006,7 +1004,49 @@ for section, items in sections.items():
 
 preview += '</body>\n</html>\n'
 
-with open(os.path.join(OUT, 'preview.html'), 'w') as f:
-    f.write(preview)
-print(f'Created {os.path.join(OUT, "preview.html")}')
-print(f'\nTotal: {len(icons)} icons generated')
+CLAWD_BASE = base_svg('Clawd', f'<path clip-rule="evenodd" d="{BASE_PATH}" fill="{MASCOT}" fill-rule="evenodd"/>')
+
+
+def clawd_files():
+    files = {f'{name}.svg': content for name, content in icons.items()}
+    files['clawd.svg'] = CLAWD_BASE
+    files['preview.html'] = preview
+    return files
+
+
+def kit_files(m):
+    files = {}
+    for name, content in icons.items():
+        pose = name.removeprefix('clawd_')
+        files[f'{m.id}_{pose}.svg'] = derive_pose(content, m, pose, BASE_PATH)
+    files[f'{m.id}.svg'] = base_svg(m.title, mascot_paths(m, m.body))
+    files['preview.html'] = (preview.replace('Clawd Icon Set', f'{m.title} Icon Set')
+                             .replace('clawd_', f'{m.id}_')
+                             .replace('#D97757', m.body))
+    return files
+
+
+def _write(out_dir, files):
+    os.makedirs(out_dir, exist_ok=True)
+    for name, content in files.items():
+        with open(os.path.join(out_dir, name), 'w') as f:
+            f.write(content)
+
+
+def main(root=ROOT, mascots=MASCOTS):
+    try:
+        for m in mascots:
+            validate_grid(list(m.grid), m.id)
+    except GridError as e:
+        print(f'error: {e}', file=sys.stderr)
+        return 1
+    _write(os.path.join(root, 'icons'), clawd_files())
+    for m in mascots:
+        _write(os.path.join(root, 'kits', m.id), kit_files(m))
+    print(f'Wrote icons/ and {len(mascots)} kits under {root}: {len(icons)} poses each')
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())
+

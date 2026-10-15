@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Lint / Format</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- sparkle/wand for "cleaning up" -->
+  <line x1="112" y1="4" x2="92" y2="40" stroke="#F0C75E" stroke-width="3" stroke-linecap="round"/>
+  <!-- star tip -->
+  <g fill="#F0C75E">
+    <polygon points="112,4 114,0 116,4 120,4 116,7 118,12 112,8 106,12 108,7 104,4"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#F0C75E" opacity="0.5">
+    <rect x="84" y="14" width="3" height="3" rx="1"/>
+    <rect x="96" y="24" width="3" height="3" rx="1"/>
+    <rect x="86" y="34" width="3" height="3" rx="1"/>
+  </g>
+</svg>
