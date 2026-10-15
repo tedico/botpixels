@@ -1,92 +1,117 @@
-# ClawdIcons
+# botpixels
 
-![Clawd](icons/clawd.svg)
+Pixel pose kits for the AI agents that show up in our videos. Forked from
+[wangzhaode/clawdicons](https://github.com/wangzhaode/clawdicons) (MIT), which draws Clawd, the
+Claude Code mascot, in 65 poses. botpixels keeps Clawd exactly as upstream draws him and adds four
+more characters in the same 65 poses.
 
-A pixel-art icon set featuring the Claude Code mascot in various actions, states, and life scenarios.
+| | Character | Inspired by |
+|:---:|---|---|
+| ![Clawd](icons/clawd.svg) | Clawd | Claude Code (upstream, unchanged) |
+| ![Grok Bot](kits/grokbot/grokbot.svg) | Grok Bot ghost | xAI's Grok Bot |
+| ![Gemini](kits/gemini/gemini.svg) | Gemini sparkle | Google Gemini |
+| ![Antigravity](kits/antigravity/antigravity.svg) | Antigravity arch | Google Antigravity |
+| ![ElevenLabs](kits/elevenlabs/elevenlabs.svg) | ElevenLabs bars | ElevenLabs |
 
-All icons are built on the same base mascot from [Claude Code](https://docs.anthropic.com/en/docs/claude-code), with contextual indicators for different situations.
+| Pose | Clawd | Grok Bot | Gemini | Antigravity | ElevenLabs |
+|---|:---:|:---:|:---:|:---:|:---:|
+| think | ![](icons/clawd_think.svg) | ![](kits/grokbot/grokbot_think.svg) | ![](kits/gemini/gemini_think.svg) | ![](kits/antigravity/antigravity_think.svg) | ![](kits/elevenlabs/elevenlabs_think.svg) |
+| bash | ![](icons/clawd_bash.svg) | ![](kits/grokbot/grokbot_bash.svg) | ![](kits/gemini/gemini_bash.svg) | ![](kits/antigravity/antigravity_bash.svg) | ![](kits/elevenlabs/elevenlabs_bash.svg) |
+| coffee | ![](icons/clawd_coffee.svg) | ![](kits/grokbot/grokbot_coffee.svg) | ![](kits/gemini/gemini_coffee.svg) | ![](kits/antigravity/antigravity_coffee.svg) | ![](kits/elevenlabs/elevenlabs_coffee.svg) |
+| sleep | ![](icons/clawd_sleep.svg) | ![](kits/grokbot/grokbot_sleep.svg) | ![](kits/gemini/gemini_sleep.svg) | ![](kits/antigravity/antigravity_sleep.svg) | ![](kits/elevenlabs/elevenlabs_sleep.svg) |
 
-## Preview
+## 1. What it is and why
 
-Open `icons/preview.html` in a browser to see all icons, or check the grid below:
+Our short videos cameo Clawd in a pose that matches the moment: thinking, running a command, drinking
+coffee. Other agents appear in the same videos, but had no poses of their own. botpixels gives each one
+the full set, in the same 128 by 128 SVG format, so anything that already places a Clawd pose can place
+these too.
 
-### Tools (10)
+## 2. Constraints
 
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Read](icons/clawd_read.svg) | ![Edit](icons/clawd_edit.svg) | ![Write](icons/clawd_write.svg) | ![Bash](icons/clawd_bash.svg) | ![Glob](icons/clawd_glob.svg) |
-| Read | Edit | Write | Bash | Glob |
-| ![Grep](icons/clawd_grep.svg) | ![LSP](icons/clawd_lsp.svg) | ![WebFetch](icons/clawd_webfetch.svg) | ![WebSearch](icons/clawd_websearch.svg) | ![Notebook](icons/clawd_notebook.svg) |
-| Grep | LSP | WebFetch | WebSearch | Notebook |
+- **These are not the companies' logos.** Each character is an original pixel drawing in the brand's
+  colours. xAI and Google both forbid altering their marks, so no official artwork is traced or used.
+  If you need the real logo, use the owner's unaltered file as a badge.
+- No affiliation with or endorsement by Anthropic, xAI, Google or ElevenLabs is implied.
+- Clawd's output must stay byte-identical to upstream commit `cb073fb`. A test enforces it.
+- Python standard library only.
 
-### Dev Actions (21)
+## 3. Setup
 
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Git](icons/clawd_git.svg) | ![Commit](icons/clawd_commit.svg) | ![Merge](icons/clawd_merge.svg) | ![PR](icons/clawd_pr.svg) | ![Diff](icons/clawd_diff.svg) |
-| Git | Commit | Merge | PR | Diff |
-| ![Debug](icons/clawd_debug.svg) | ![Test](icons/clawd_test.svg) | ![Build](icons/clawd_build.svg) | ![Deploy](icons/clawd_deploy.svg) | ![Install](icons/clawd_install.svg) |
-| Debug | Test | Build | Deploy | Install |
-| ![Lint](icons/clawd_lint.svg) | ![Review](icons/clawd_review.svg) | ![Curl](icons/clawd_curl.svg) | ![Docker](icons/clawd_docker.svg) | ![SSH](icons/clawd_ssh.svg) |
-| Lint | Review | HTTP | Docker | SSH |
-| ![DB](icons/clawd_db.svg) | ![API](icons/clawd_api.svg) | ![Log](icons/clawd_log.svg) | ![CI](icons/clawd_ci.svg) | ![Config](icons/clawd_config.svg) |
-| Database | API | Logs | CI/CD | Config |
-| ![Env](icons/clawd_env.svg) | | | | |
-| Env Vars | | | | |
+Python 3.10 or newer. Nothing to install.
 
-### States (12)
-
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Agent](icons/clawd_agent.svg) | ![Explore](icons/clawd_explore.svg) | ![Plan](icons/clawd_plan.svg) | ![Think](icons/clawd_think.svg) | ![Answer](icons/clawd_answer.svg) |
-| Agent | Explore | Plan | Think | Answer |
-| ![Ask](icons/clawd_ask.svg) | ![Wait](icons/clawd_wait.svg) | ![Error](icons/clawd_error.svg) | ![Success](icons/clawd_success.svg) | ![Confused](icons/clawd_confused.svg) |
-| Ask | Wait | Error | Success | Confused |
-| ![Eureka](icons/clawd_eureka.svg) | ![Focus](icons/clawd_focus.svg) | | | |
-| Eureka | Focus | | | |
-
-### Life (22)
-
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Rest](icons/clawd_rest.svg) | ![Run](icons/clawd_run.svg) | ![Sleep](icons/clawd_sleep.svg) | ![Drink](icons/clawd_drink.svg) | ![Eat](icons/clawd_eat.svg) |
-| Rest | Run | Sleep | Drink | Eat |
-| ![Coffee](icons/clawd_coffee.svg) | ![Happy](icons/clawd_happy.svg) | ![Sad](icons/clawd_sad.svg) | ![Music](icons/clawd_music.svg) | ![Game](icons/clawd_game.svg) |
-| Coffee | Happy | Sad | Music | Game |
-| ![Book](icons/clawd_read_book.svg) | ![Wave](icons/clawd_wave.svg) | ![Meditate](icons/clawd_meditate.svg) | ![Rain](icons/clawd_rain.svg) | ![Love](icons/clawd_love.svg) |
-| Book | Wave | Meditate | Rain | Love |
-| ![Workout](icons/clawd_workout.svg) | ![Cook](icons/clawd_cook.svg) | ![Travel](icons/clawd_travel.svg) | ![Photo](icons/clawd_photo.svg) | ![Dance](icons/clawd_dance.svg) |
-| Workout | Cook | Travel | Photo | Dance |
-| ![Pet](icons/clawd_pet.svg) | ![Birthday](icons/clawd_birthday.svg) | | | |
-| Pet | Birthday | | | |
-
-## Usage
-
-Each icon is a standalone SVG file (128x128 viewBox). Use them directly:
-
-```html
-<img src="icons/clawd_think.svg" width="64" height="64" alt="Thinking">
+```sh
+git clone https://github.com/tedico/botpixels.git
+cd botpixels
 ```
 
-## Regenerate
+## 4. Usage
 
-All icons are generated from a single Python script:
+Regenerate every kit (safe to run from any directory):
 
-```bash
+```sh
 python3 generate_icons.py
 ```
 
-## Structure
+Run the tests:
 
-```
-clawdary/
-  clawd.svg              # Base mascot SVG
-  generate_icons.py      # Icon generator script
-  icons/
-    clawd_*.svg          # 65 icon SVGs
-    preview.html         # Visual preview page
+```sh
+python3 -m unittest -v
 ```
 
-## License
+Use a pose directly:
 
-MIT
+```html
+<img src="kits/grokbot/grokbot_think.svg" width="64" height="64" alt="Grok Bot thinking">
+```
+
+Open `kits/<id>/preview.html` in a browser to see all 65 poses of one character.
+
+## 5. How it works
+
+Upstream builds each Clawd pose as one body path plus an overlay of props. botpixels leaves that code
+alone and derives the other characters from Clawd's finished SVGs:
+
+1. Each character is a 24-wide pixel grid in `botpixels/mascots.py`. `#` is body, `o` is an eye, `.`
+   is empty. Grids sit on Clawd's feet line, so hats and badges land where the overlays expect.
+2. `botpixels/grid.py` turns the grid into SVG path data, one run per row.
+3. `botpixels/derive.py` swaps Clawd's body for the character's, drops Clawd's orange arms and legs in
+   the dance, run and wave poses, and recolours any other Clawd orange.
+4. Poses where Clawd holds a prop in his right hand shift the prop group left so it meets the narrower
+   body. The shifts live in the same table as the grids.
+
+Output:
+
+```
+icons/                 Clawd, unchanged from upstream (65 poses, clawd.svg, preview.html)
+kits/<id>/             <id>_<pose>.svg x 65, <id>.svg base icon, preview.html
+```
+
+## 6. Configuration
+
+Everything is in `botpixels/mascots.py`. To add a character, add a `Mascot` with an id, title, grid,
+body colour, and eye colour (or `None` for eyes cut out as holes). To move a prop for one pose, add
+`"pose": (dx, dy)` to its nudges.
+
+## 7. Troubleshooting
+
+- **`error: <id>: row N ...`** The grid for that character is malformed. Every row must be exactly 24
+  characters of `#`, `o` and `.`, with no trailing spaces, and at most 16 rows.
+- **A character renders black or striped in ImageMagick.** ImageMagick's built-in SVG renderer
+  mishandles these paths. Browsers, Quick Look and Chromium render them correctly.
+- **The Clawd byte-identity test fails.** Something changed upstream's pose code or its output. Revert
+  that change; Clawd's files are the regression baseline.
+
+## 8. Legend
+
+| Term | Meaning |
+|---|---|
+| Pose | One 128 by 128 SVG: a character plus a prop overlay |
+| Kit | One character's 65 poses, base icon and preview page |
+| Overlay | The props drawn on top of the body, shared by every character |
+| Nudge | A per-pose shift of the overlay for one character |
+
+## Credits and license
+
+Poses and generator by [wangzhaode/clawdicons](https://github.com/wangzhaode/clawdicons), MIT. Character
+grids and derivation by Ted Sandico, MIT. See `LICENSE`.
