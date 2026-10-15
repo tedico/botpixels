@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Spawn Agent</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- mini mascot (child agent) bouncing out to the right -->
+  <g transform="translate(84,6) scale(1.6)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#5B9BD5"/>
+  </g>
+  <!-- connection line from parent to child -->
+  <path d="M100,72 Q108,56 92,44" fill="none" stroke="#F0C75E" stroke-width="2" stroke-dasharray="4,3" opacity="0.7"/>
+  <!-- energy sparkles around mini mascot -->
+  <g fill="#F0C75E">
+    <rect x="82" y="4" width="3" height="3" rx="1"/>
+    <rect x="122" y="8" width="4" height="4" rx="1"/>
+    <rect x="118" y="38" width="3" height="3" rx="1"/>
+    <rect x="80" y="32" width="3" height="3" rx="1"/>
+  </g>
+  <!-- spawn burst lines -->
+  <g stroke="#F0C75E" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <line x1="78" y1="20" x2="74" y2="16"/>
+    <line x1="126" y1="18" x2="128" y2="14"/>
+    <line x1="124" y1="36" x2="128" y2="38"/>
+  </g>
+</svg>

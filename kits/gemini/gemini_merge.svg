@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Git Merge</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- merge diagram -->
+  <circle cx="90" cy="8" r="5" fill="none" stroke="#5B9BD5" stroke-width="3"/>
+  <circle cx="118" cy="8" r="5" fill="none" stroke="#6BBF6B" stroke-width="3"/>
+  <circle cx="104" cy="42" r="5" fill="none" stroke="#F0C75E" stroke-width="3"/>
+  <line x1="90" y1="13" x2="104" y2="37" stroke="#5B9BD5" stroke-width="2.5"/>
+  <line x1="118" y1="13" x2="104" y2="37" stroke="#6BBF6B" stroke-width="2.5"/>
+</svg>

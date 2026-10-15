@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Explore Codebase</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M8 5h8v1h-8zM6 6h12v1h-12zM5 7h9v1h-9zM15 7h4v1h-4zM4 8h5v1h-5zM10 8h6v1h-6zM17 8h3v1h-3zM4 9h6v1h-6zM11 9h9v1h-9zM3 10h8v1h-8zM12 10h9v1h-9zM3 11h18v1h-18zM3 12h18v1h-18zM3 13h18v1h-18zM3 14h18v1h-18zM4 15h16v1h-16zM4 16h16v1h-16zM5 17h14v1h-14zM6 18h12v1h-12zM8 19h8v1h-8z" fill="#E6ECF5"/>
+    <path d="M14 7h1v1h-1zM9 8h1v1h-1zM16 8h1v1h-1zM10 9h1v1h-1zM11 10h1v1h-1z" fill="#0F1115"/>
+  </g>
+  <!-- flashlight in right hand -->
+  <rect x="100" y="66" width="16" height="8" rx="2" fill="#5B9BD5"/>
+  <rect x="100" y="64" width="6" height="12" rx="1" fill="#5B9BD5" opacity="0.8"/>
+  <!-- light beam shining right -->
+  <polygon points="116,64 128,52 128,88 116,76" fill="#F0C75E" opacity="0.25"/>
+  <polygon points="116,66 126,58 126,82 116,74" fill="#F0C75E" opacity="0.35"/>
+  <!-- light glow at source -->
+  <rect x="114" y="66" width="4" height="8" rx="1" fill="#F0C75E" opacity="0.8"/>
+</svg>

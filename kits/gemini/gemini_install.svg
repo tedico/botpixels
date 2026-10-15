@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Install</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- box -->
+  <rect x="88" y="18" width="32" height="24" rx="2" fill="#5B9BD5"/>
+  <rect x="88" y="18" width="32" height="8" fill="#5B9BD5" opacity="0.7"/>
+  <line x1="104" y1="18" x2="104" y2="42" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  <line x1="88" y1="26" x2="120" y2="26" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  <!-- arrow down into box -->
+  <line x1="104" y1="2" x2="104" y2="16" stroke="#6BBF6B" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="98,10 104,16 110,10" fill="none" stroke="#6BBF6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

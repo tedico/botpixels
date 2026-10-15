@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Running</title>
+  <!-- mascot body tilted forward 12deg -->
+  <g transform="translate(28, 12) rotate(12, 52, 60) scale(3.6)">
+    <path d="M11 4h2v1h-2zM11 5h2v1h-2zM10 6h4v1h-4zM10 7h4v1h-4zM9 8h1v1h-1zM11 8h2v1h-2zM14 8h1v1h-1zM8 9h2v1h-2zM11 9h2v1h-2zM14 9h2v1h-2zM6 10h12v1h-12zM0 11h24v1h-24zM0 12h24v1h-24zM6 13h12v1h-12zM8 14h8v1h-8zM9 15h6v1h-6zM10 16h4v1h-4zM10 17h4v1h-4zM11 18h2v1h-2zM11 19h2v1h-2z" fill="#969DFF"/>
+  </g>
+  <!-- motion lines -->
+  <g stroke="#6BBF6B" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <line x1="2" y1="36" x2="18" y2="36"/>
+    <line x1="0" y1="48" x2="22" y2="48"/>
+    <line x1="4" y1="60" x2="16" y2="60"/>
+    <line x1="2" y1="72" x2="12" y2="72"/>
+  </g>
+  <!-- dust -->
+  <g fill="#6BBF6B" opacity="0.3">
+    <rect x="90" y="102" width="6" height="6" rx="3"/>
+    <rect x="98" y="98" width="4" height="4" rx="2"/>
+  </g>
+</svg>

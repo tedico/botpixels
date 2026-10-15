@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Docker</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M8 5h8v1h-8zM6 6h12v1h-12zM5 7h9v1h-9zM15 7h4v1h-4zM4 8h5v1h-5zM10 8h6v1h-6zM17 8h3v1h-3zM4 9h6v1h-6zM11 9h9v1h-9zM3 10h8v1h-8zM12 10h9v1h-9zM3 11h18v1h-18zM3 12h18v1h-18zM3 13h18v1h-18zM3 14h18v1h-18zM4 15h16v1h-16zM4 16h16v1h-16zM5 17h14v1h-14zM6 18h12v1h-12zM8 19h8v1h-8z" fill="#E6ECF5"/>
+    <path d="M14 7h1v1h-1zM9 8h1v1h-1zM16 8h1v1h-1zM10 9h1v1h-1zM11 10h1v1h-1z" fill="#0F1115"/>
+  </g>
+  <!-- container box -->
+  <rect x="84" y="14" width="36" height="28" rx="2" fill="#5B9BD5"/>
+  <!-- container grid lines -->
+  <line x1="96" y1="14" x2="96" y2="42" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="108" y1="14" x2="108" y2="42" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="84" y1="24" x2="120" y2="24" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="84" y1="34" x2="120" y2="34" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <!-- whale tail (docker-ish) -->
+  <rect x="88" y="8" width="6" height="6" rx="1" fill="#5B9BD5" opacity="0.6"/>
+  <rect x="96" y="8" width="6" height="6" rx="1" fill="#5B9BD5" opacity="0.6"/>
+  <rect x="104" y="8" width="6" height="6" rx="1" fill="#5B9BD5" opacity="0.6"/>
+  <rect x="92" y="2" width="6" height="6" rx="1" fill="#5B9BD5" opacity="0.4"/>
+  <rect x="100" y="2" width="6" height="6" rx="1" fill="#5B9BD5" opacity="0.4"/>
+</svg>

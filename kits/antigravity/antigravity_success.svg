@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Success</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M9 4h6v1h-6zM7 5h10v1h-10zM6 6h12v1h-12zM5 7h4v1h-4zM10 7h4v1h-4zM15 7h4v1h-4zM5 8h4v1h-4zM10 8h4v1h-4zM15 8h4v1h-4zM4 9h16v1h-16zM4 10h16v1h-16zM4 11h6v1h-6zM14 11h6v1h-6zM3 12h5v1h-5zM16 12h5v1h-5zM3 13h4v1h-4zM17 13h4v1h-4zM2 14h4v1h-4zM18 14h4v1h-4zM2 15h4v1h-4zM18 15h4v1h-4zM1 16h4v1h-4zM19 16h4v1h-4zM1 17h4v1h-4zM19 17h4v1h-4zM0 18h4v1h-4zM20 18h4v1h-4zM0 19h3v1h-3zM21 19h3v1h-3z" fill="#3186FF"/>
+  </g>
+  <!-- big checkmark above head -->
+  <polyline points="40,16 50,28 72,4" fill="none" stroke="#6BBF6B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- confetti -->
+  <rect x="20" y="6" width="4" height="4" fill="#F0C75E" transform="rotate(20,22,8)"/>
+  <rect x="84" y="10" width="4" height="4" fill="#5B9BD5" transform="rotate(-15,86,12)"/>
+  <rect x="96" y="2" width="3" height="6" fill="#E05252" transform="rotate(30,97,5)"/>
+  <rect x="110" y="12" width="4" height="3" fill="#6BBF6B" transform="rotate(-25,112,13)"/>
+  <rect x="60" y="2" width="3" height="5" fill="#3186FF" transform="rotate(10,61,4)"/>
+</svg>

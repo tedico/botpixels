@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Happy</title>
+  <g transform="translate(4,24) scale(4)">
+    <path d="M9 4h6v1h-6zM7 5h10v1h-10zM6 6h12v1h-12zM5 7h4v1h-4zM10 7h4v1h-4zM15 7h4v1h-4zM5 8h4v1h-4zM10 8h4v1h-4zM15 8h4v1h-4zM4 9h16v1h-16zM4 10h16v1h-16zM4 11h6v1h-6zM14 11h6v1h-6zM3 12h5v1h-5zM16 12h5v1h-5zM3 13h4v1h-4zM17 13h4v1h-4zM2 14h4v1h-4zM18 14h4v1h-4zM2 15h4v1h-4zM18 15h4v1h-4zM1 16h4v1h-4zM19 16h4v1h-4zM1 17h4v1h-4zM19 17h4v1h-4zM0 18h4v1h-4zM20 18h4v1h-4zM0 19h3v1h-3zM21 19h3v1h-3z" fill="#3186FF"/>
+  </g>
+  <g fill="#F0C75E">
+    <polygon points="20,8 22,14 28,14 23,18 25,24 20,20 15,24 17,18 12,14 18,14"/>
+    <polygon points="108,4 110,8 114,8 111,11 112,15 108,12 104,15 105,11 102,8 106,8"/>
+    <polygon points="64,2 65,5 68,5 66,7 67,10 64,8 61,10 62,7 60,5 63,5"/>
+  </g>
+  <rect x="32" y="60" width="24" height="4" rx="2" fill="#E09070"/>
+  <rect x="72" y="60" width="24" height="4" rx="2" fill="#E09070"/>
+</svg>
