@@ -74,3 +74,14 @@ class Derive(unittest.TestCase):
         clawd_el = f'<path clip-rule="evenodd" d="{g.BASE_PATH}" fill="{g.MASCOT}" fill-rule="evenodd"/>'
         with open("icons/clawd.svg") as f:
             self.assertEqual(base_svg("Clawd", clawd_el), f.read())
+
+    def test_wave_has_hand(self):
+        out = d("wave")
+        self.assertIn("<!-- waving hand -->", out)
+        self.assertIn(f'<g fill="{GHOST.body}">', out)
+        self.assertIn('<path d="M96,30 Q110,20 124,30"/>', out)
+
+    def test_wave_differs_from_base(self):
+        body = d("read").split("<g ", 1)[1].split("</g>", 1)[0]
+        self.assertNotEqual(d("wave").split("</g>", 1)[1].strip(), "</svg>")
+        self.assertIn(body, d("wave"))

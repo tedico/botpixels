@@ -7,14 +7,14 @@
 - [ ] Phase 4 — Use: vendor the kits into the Rue Athena /commands build kit (separate change)
 
 ## Current phase
-Phase 3 — PR open, awaiting Ted's merge
+Phase 4 — Use: kits being vendored into the Rue Athena build kit
 
 ## Next
 After merge: vendor kits/ into the Rue Athena /commands build kit and give its staging step a mascot parameter.
 
 ## Human
-- Merge the feat/botpixels-kits PR
-- Decide whether the wave pose needs its own art (non-Clawd wave is currently identical to the base icon)
+
+- Merge the feat/wave-hand PR
 
 ## Blockers
 none
