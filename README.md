@@ -67,6 +67,38 @@ Use a pose directly:
 
 Open `kits/<id>/preview.html` in a browser to see all 65 poses of one character.
 
+### Using the poses in your videos
+
+**Get the files.** Download `botpixels-v1.0.0-svg.zip` from the
+[latest release](https://github.com/tedico/botpixels/releases/latest). It has one folder per
+character with all 65 poses, a base icon and a `preview.html` page. Open the preview first to pick
+poses.
+
+**Pick a pose for the moment.** Match the pose to what the voice is saying: `think` while a question
+lands, `bash` or `write` while something gets built, `success` or `eureka` on the payoff, `wave` to say
+hello or goodbye. Short cameos of one to two seconds read best, in empty space, never over your text
+or captions.
+
+**Drop them into your tool.**
+
+| Tool | How |
+|---|---|
+| Web, HTML and CSS, or code-based video (Remotion, HyperFrames) | Use the SVG directly. Add `image-rendering: pixelated` and scale by whole numbers (2x, 3x, 4x) so the pixels stay sharp. |
+| Canva, Figma, Keynote | Import the SVG as an image. It stays sharp at any size. |
+| Video editors that want PNG (CapCut, Premiere, Descript) | Convert first: import the SVG into Figma or Canva and export PNG at 4x (512 px). Whole-number sizes keep the pixels sharp. |
+
+**Avoid ImageMagick for conversion.** Its built-in SVG renderer draws these characters black and
+striped. Browsers and Chromium-based tools render them correctly; check one export before batch
+converting in any other tool.
+
+**Animate the whole character.** The poses are still frames. Let your tool supply the motion: hop,
+slide in from an edge, tilt, bounce, pop in and out. Avoid stretching one axis, which breaks the pixel
+grid.
+
+**Keep it honest.** These are original pixel characters, not the companies' logos. If your video is
+about one of these products, say "not affiliated" in your caption, and never present a character as
+the company's official mascot.
+
 ## 5. How it works
 
 Upstream builds each Clawd pose as one body path plus an overlay of props. botpixels leaves that code
