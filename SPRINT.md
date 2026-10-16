@@ -10,11 +10,10 @@
 Phase 4 — Released: v1.0.0 public as a standalone lead magnet; Rue Athena series keep their own characters
 
 ## Next
-Promote the v1.0.0 release; decide on the two Gmail-stamped merge commits.
+Promote the v1.0.0 release as a lead magnet. Repo left the fork network on 2026-10-16, so it is now searchable.
 
 ## Human
-- Turn on GitHub email privacy: Settings, Emails, tick "Keep my email addresses private" and "Block command line pushes that expose my email". Browser merges of PR #1 and #2 stamped your Gmail on two public commits.
-- Decide on those two commits: leave them, or let Claude republish botpixels as a fresh non-fork repo with clean history (also makes it show up in GitHub search).
+none
 
 ## Blockers
 none
